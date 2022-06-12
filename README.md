@@ -1,4 +1,4 @@
-<h1 align="center">Carboon Rent a Car Website </h1>
+<h1 align="center">Carboon Rent a Car Website</h1>
 
 This car rental site includes;
 * You can see our special tools and user comments on the homepage.
@@ -29,8 +29,9 @@ git clone https://github.com/bertuginal/Carboon-Rent-a-Car
 ```
 
 ## :point_down: Images
-
+<h4 align="center">Main Page</h4>
 <div align="center"><img src="img/Carboon-mainpage.png" width="1000"></div>
+<h4 align="center">Rent A Car</h4>
 <div align="center"><img src="img/Carboon-rentacar.png" width="1000"></div>
 
 ## :clap: And it's done!
