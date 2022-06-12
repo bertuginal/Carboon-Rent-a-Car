@@ -40,5 +40,7 @@ git clone https://github.com/bertuginal/Carboon-Rent-a-Car
 
 <div align="center"><img src="img/Carboon-rentacar.png" width="1000"></div>
 
+---
+
 ## :clap: And it's done!
 For questions or comments, you can contact me via this e-mail :email: bertuginal@yahoo.com
