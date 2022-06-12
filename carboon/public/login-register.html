@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>Login-Register - RENT A CAR</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      id="r-color-roller"
+      href="css/color.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="r-wrapper">
+      <header>
+        <div class="r-header r-header-inner">
+          <div class="r-header-strip">
+            <div class="container">
+              <div class="row clearfix">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                  <div class="r-logo">
+                    <a href="index.html" class="d-inline-block"
+                      ><img
+                        src="images/logo-black.png"
+                        class="img-fluid d-block"
+                        alt=""
+                    /></a>
+                  </div>
+                  <a href="javaScript:void(0)" class="menu-icon">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                  <div class="r-header-action float-right">
+                    <div class="r-search-wrapper">
+                      <div class="r-search-inner">
+                        <form>
+                          <input
+                            type="text"
+                            class="r-search-field"
+                            placeholder="Search"
+                          />
+                          <button type="submit" class="r-search-btn">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="r-nav-section float-right">
+                    <nav>
+                      <ul>
+                        <li>
+                          <a href="index.html">ANA SAYFA</a>
+                        </li>
+                        <li>
+                          <a href="about.html">HAKKIMIZDA</a>
+                        </li>
+                        <li>
+                          <a href="vehicles.html">ARABALAR</a>
+                        </li>
+                        <li><a href="gallery.html">GALERİ</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="r-header-inner-banner">
+            <div class="r-header-in-over">
+              <h1><b>Giriş Yap, Kayıt Ol</b></h1>
+              <div class="r-breadcrum">
+                <ul>
+                  <li><a href="index.html">ANA SAYFA</a></li>
+                  <li><span>Giriş Yap</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="r-login-register">
+        <div class="r-login-register">
+          <div class="r-login-register-in">
+            <div class="d-flex justify-content-center">
+              <div class="r-auth-outer r-login">
+                <div class="r-auth-head">
+                  <h2><b>Giriş Yap</b></h2>
+                  <span>Web sitemize giriş yapın</span>
+                </div>
+                <div class="r-auth-form">
+                  <div class="r-login-fb"></div>
+                  <form action="" onsubmit="login(); return false" method="POST">
+                    <small><span id="error" style="color: red"></span></small>
+                    <div class="form-group">
+                      <input
+                        id="loginE"
+                        type="text"
+                        class="form-control"
+                        required
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        id="loginP"
+                        type="password"
+                        class="form-control"
+                        required
+                        placeholder="Şifre"
+                      />
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <button
+                       type="submit"
+                        class="btn btn-full"
+                      >
+                        GİRİŞ YAP
+                      </button>
+                      <br><br>
+                      <p>Hesabınız yok mu? <a href="register.html" style="color: #ff5403;">Kayıt Ol</a></p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="r-get-in-touch">
+        <div class="r-get-in-touch">
+          <div class="container">
+            <div class="r-get-header">
+              <span>BİZİMLE İLETİŞİME GEÇ</span>
+              <h2><b>İletişimi </b>Koparma.</h2>
+            </div>
+            <div class="r-get-form">
+              <form action="#">
+                <div class="clearfix">
+                  <div class="form-group">
+                    <input type="text" placeholder="Ad Soyad" />
+                  </div>
+                  <div class="form-group">
+                    <input type="email" placeholder="Email" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Başlık" />
+                </div>
+                <div class="form-group">
+                  <textarea placeholder="Mesaj"></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-full">MESAJI GÖNDER</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="r-footer">
+          <div class="container">
+            <div class="row clearfix"></div>
+            <div class="row clearfix r-footer-strip">
+              <div class="col-xl-6 col-lg-6 col-md-5 col-sm-4 col-xs-12">
+                ©2021 Created by Carboon
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-7 col-sm-8 col-xs-12">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-facebook"></i><span>Facebook</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-twitter"></i><span>Twitter</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-instagram"></i><span>Instagram</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <style>
+      .swal-button, #swal-button--confirm{
+        background-color:#ff5403
+      }
+    </style>
+    <div id="r-to-top" class="r-to-top"><i class="fa fa-angle-up"></i></div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="login-register.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>Carboon - Kirala</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <link href="css/rent.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Carboon Araç Kiralama Formu</h1>
+      <form
+        method="POST"
+        action=""
+        onsubmit="getData(); return false"
+        name="form"
+      >
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          <div class="form-group">
+            <label class="display-block">Cinsiyet :</label>
+            <div class="radio-group">
+              <input type="radio" name="title" value="male" id="male" required /><label
+                for="male"
+                >Erkek</label
+              >
+            </div>
+            <div class="radio-group">
+              <input
+                type="radio"
+                name="title"
+                value="female"
+                id="female"
+                required
+              /><label for="female">Kadın</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fname" class="display-block">Adınız:</label>
+            <input
+              type="text"
+              placeholder="Adınızı Giriniz"
+              name="fname"
+              id="fname"
+              required
+            />
+            <label for="fname" class="display-block"
+              >TC Kimlik Numaranız:</label
+            >
+            <input
+              type="number"
+              placeholder="TC'nizi Giriniz"
+              maxlength="11"
+              name="tc"
+              id="tc"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lname" class="display-block">Soyadınız:</label>
+            <input
+              type="text"
+              placeholder="Soyadınızı Giriniz"
+              name="lname"
+              id="lname"
+              required
+            />
+            <label for="lname" class="display-block">Yaşınız:</label>
+            <input
+              type="number"
+              placeholder="Yaşınızı Giriniz"
+              name="yas"
+              id="yas"
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Ehliyet ve İletişim Bilgileri</legend>
+          <div class="form-group">
+            <label for="classes" class="display-block"
+              >Ehliyet Sınıfınız:</label
+            >
+            <select name="classes" id="classes" required>
+              <option value="INFO-1151">B</option>
+              <option value="INFO-1162">BE</option>
+              <option value="INFO-2285">C1</option>
+              <option value="INFO-3307">C1E</option>
+              <option value="INFO-1151">D1</option>
+              <option value="INFO-1162">D1E</option>
+              <option value="INFO-2285">D</option>
+              <option value="INFO-3307">DE</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email" class="display-block">Email:</label>
+            <input
+              type="email"
+              placeholder="Email Adresinizi Giriniz"
+              name="email"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="pno" class="display-block">Telefon Numarası:</label>
+            <input
+              type="number"
+              placeholder="Telefon Numaranızı Gitiniz"
+              name="pno"
+              id="pno"
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset class="block-form">
+          <legend>Araç Kiralama Bilgileri</legend>
+          <div class="form-group">
+            <label for="first-enrolled" class="display-block"
+              >Araç Alış / İade Tarihi</label
+            >
+            <input
+              type="date"
+              placeholder="Alış Tarihi"
+              name="first-enrolled"
+              id="first-enrolled"
+              required
+            />
+            <input
+              type="date"
+              placeholder="İade tarihi"
+              name="first-enrolled"
+              id="first-enrolled"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="first-enrolled" class="display-block"
+              >Araç Alış / İade Saati</label
+            >
+            <input
+              type="time"
+              placeholder="Alış Tarihi"
+              name="first-enrolled"
+              id="first-enrolled"
+              required
+            />
+            <input
+              type="time"
+              placeholder="İade tarihi"
+              name="first-enrolled"
+              id="first-enrolled"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Açıklama</legend>
+          <label for="feedback" class="display-block"
+            >Herhangi bir istek ve görüşünüz varsa buraya belirtiniz.</label
+          >
+          <textarea name="feedback" id="feedback" required></textarea>
+        </fieldset>
+        <div class="form-buttons">
+          <input type="submit" value="Gönder" />
+          <input type="reset" value="Sıfırla" />
+        </div>
+        <hr />
+      </form>
+    </div>
+  </body>
+  <style>
+    .swal-button, #swal-button--confirm{
+      background-color:#ff5403
+    }
+  </style>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/rent.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
