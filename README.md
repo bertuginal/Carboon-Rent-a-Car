@@ -30,8 +30,14 @@ git clone https://github.com/bertuginal/Carboon-Rent-a-Car
 
 ## :point_down: Images
 <h4 align="center">Main Page</h4>
+
+---
+
 <div align="center"><img src="img/Carboon-mainpage.png" width="1000"></div>
 <h4 align="center">Rent A Car</h4>
+
+---
+
 <div align="center"><img src="img/Carboon-rentacar.png" width="1000"></div>
 
 ## :clap: And it's done!
