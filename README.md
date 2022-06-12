@@ -1,4 +1,4 @@
-<h1 align="center">Carboon Rent a Car Website <h1>
+<h1 align="center">Carboon Rent a Car Website </h1>
 
 This rent a car site will include;
 * You can register on this site as an Instructor (Teacher) or a Incudemist (Student), receive training or give training.
