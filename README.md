@@ -1,5 +1,10 @@
 <h1 align="center">Carboon Rent a Car Website</h1>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Firebase](https://img.shields.io/badge/Firebase-v8+-blue.svg)
+[![Forks](https://img.shields.io/github/forks/bertuginal/Carboon-Rent-a-Car.svg?logo=github)](https://github.com/bertuginal/Carboon-Rent-a-Car/network/members)
+[![Stargazers](https://img.shields.io/github/stars/bertuginal/Carboon-Rent-a-Car.svg?logo=github)](https://github.com/bertuginal/Carboon-Rent-a-Car/stargazers)
+
 This car rental site includes;
 * You can see our special tools and user comments on the homepage.
 * You can see information about the site in the About Us section and contact me.
@@ -44,3 +49,5 @@ git clone https://github.com/bertuginal/Carboon-Rent-a-Car
 
 ## :clap: And it's done!
 For questions or comments, you can contact me via this e-mail :email: bertuginal@yahoo.com
+
+:star: If you like my project, can you click the star to support me?
