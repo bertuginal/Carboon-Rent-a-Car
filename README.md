@@ -5,6 +5,8 @@
 [![Forks](https://img.shields.io/github/forks/bertuginal/Carboon-Rent-a-Car.svg?logo=github)](https://github.com/bertuginal/Carboon-Rent-a-Car/network/members)
 [![Stargazers](https://img.shields.io/github/stars/bertuginal/Carboon-Rent-a-Car.svg?logo=github)](https://github.com/bertuginal/Carboon-Rent-a-Car/stargazers)
 
+---
+
 This car rental site includes;
 * You can see our special tools and user comments on the homepage.
 * You can see information about the site in the About Us section and contact me.
