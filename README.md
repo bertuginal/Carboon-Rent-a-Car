@@ -18,7 +18,7 @@ This car rental site includes;
 ---
 
 ## :file_folder: Carboon Website
-You can reach the " Carboon Rent a Car " website [here](https://carboon-414d8.web.app/welcome.html)!
+You can reach the " Carboon Rent a Car " website [here](https://carboon-414d8.web.app/index.html)!
 
 ## :warning: Technologies used
 
