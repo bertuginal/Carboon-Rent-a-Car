@@ -29,7 +29,7 @@ You can reach the " Carboon Rent a Car " website [here](https://carboon-414d8.we
 
 ## 🚀 Installation
 
-Clone the repo, download this project and open the sln file.
+Clone the repo, download this project.
 
 ```bash
 git clone https://github.com/bertuginal/Carboon-Rent-a-Car
